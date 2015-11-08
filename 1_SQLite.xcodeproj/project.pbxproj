@@ -19,6 +19,7 @@
 		0F073AA91BB530A2007793F9 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F073AA81BB530A2007793F9 /* DatabaseManager.m */; settings = {ASSET_TAGS = (); }; };
 		0F073AAB1BB53317007793F9 /* mydatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0F073AAA1BB53147007793F9 /* mydatabase.sqlite */; settings = {ASSET_TAGS = (); }; };
 		0F073AAE1BB5336A007793F9 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F073AAD1BB5336A007793F9 /* Player.m */; settings = {ASSET_TAGS = (); }; };
+		88AD69511BEF781900B4D47E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AD69501BEF781900B4D47E /* CustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		0F073AAA1BB53147007793F9 /* mydatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydatabase.sqlite; sourceTree = "<group>"; };
 		0F073AAC1BB5336A007793F9 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		0F073AAD1BB5336A007793F9 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		88AD694F1BEF781900B4D47E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		88AD69501BEF781900B4D47E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0F073A761BB524DC007793F9 /* AppDelegate.m */,
 				0F073A781BB524DC007793F9 /* ViewController.h */,
 				0F073A791BB524DC007793F9 /* ViewController.m */,
+				88AD694F1BEF781900B4D47E /* CustomView.h */,
+				88AD69501BEF781900B4D47E /* CustomView.m */,
 				0F073AAC1BB5336A007793F9 /* Player.h */,
 				0F073AAD1BB5336A007793F9 /* Player.m */,
 				0F073AA71BB530A2007793F9 /* DatabaseManager.h */,
@@ -293,6 +298,7 @@
 				0F073A771BB524DC007793F9 /* AppDelegate.m in Sources */,
 				0F073A741BB524DC007793F9 /* main.m in Sources */,
 				0F073AAE1BB5336A007793F9 /* Player.m in Sources */,
+				88AD69511BEF781900B4D47E /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +522,7 @@
 				0F073A9E1BB524DC007793F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F073A9F1BB524DC007793F9 /* Build configuration list for PBXNativeTarget "1_SQLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				0F073AA11BB524DC007793F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F073AA21BB524DC007793F9 /* Build configuration list for PBXNativeTarget "1_SQLiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				0F073AA41BB524DC007793F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

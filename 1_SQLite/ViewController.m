@@ -56,6 +56,8 @@
     NSLog(@"%@",@"这是添加的一行");
     NSLog(@"我查了");
     NSLog(@"这是日了够了");
+    
+    NSLog(@"李化喻的电脑进行编辑");
 }
 
 - (void)createDatabase {
