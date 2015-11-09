@@ -58,6 +58,11 @@
     NSLog(@"这是日了够了");
     
     NSLog(@"李化喻的电脑进行编辑");
+    
+    UIView* custom=[[UIView alloc]initWithFrame:CGRectMake(100, 200,240, 300)];
+    
+    custom.backgroundColor=[UIColor cyanColor];
+    [self.view addSubview:custom];
 }
 
 - (void)createDatabase {
